@@ -18,7 +18,7 @@ public class SistemTiket {
             for(int i = 0; i < daftarTiket.size(); i++){
 
                 System.out.println("Index : " + i);
-                daftarTiket.get(i).tampilkanInfo();
+                daftarTiket.get(i).tampilkanInfo("Info tiket"); // overloading dipakai
                 System.out.println("----------------------");
             }
         }

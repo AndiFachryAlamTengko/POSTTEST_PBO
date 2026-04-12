@@ -34,4 +34,10 @@ public class Tiket {
         System.out.println("Tujuan : " + tujuan);
         System.out.println("Harga : " + harga);
     }
+
+    // OVERLOADING (polymorphism)
+    public void tampilkanInfo(String tambahan){
+        tampilkanInfo();
+        System.out.println("Catatan : " + tambahan);
+    }
 }
